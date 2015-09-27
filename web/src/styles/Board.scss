@@ -1,0 +1,20 @@
+@import 'shared';
+
+// Todo: preserve cell aspect ratio, no matter the container size
+
+.row {
+  @include center;
+}
+
+.cell {
+  border: 1px solid black;
+  width: 3em;
+  height: 3em;
+  cursor: pointer;
+  margin: 5px;
+  padding: 2px;
+}
+
+.controls {
+  @include spread;
+}

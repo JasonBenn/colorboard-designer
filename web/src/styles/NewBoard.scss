@@ -1,0 +1,18 @@
+@import 'shared';
+
+.new-board {
+  display: inline-block;
+  text-align: center;
+}
+
+label {
+  h2 {
+    margin-right: 1em;
+  }
+
+  @include spread;
+}
+
+button {
+  margin: 0 auto;
+}
